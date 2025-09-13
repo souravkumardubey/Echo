@@ -147,7 +147,6 @@ export default function Home() {
       <footer className="border-t bg-muted/30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-6">
-
             <div>
               <span className="text-xl font-bold tracking-tight">Echo</span>
               <p className="text-sm text-muted-foreground mt-1">
