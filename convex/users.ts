@@ -53,3 +53,10 @@ export const searchUsers = query({
         ).slice(0, 20); 
     }
 });
+
+export const totalUsers = query({
+    handler: async (ctx) => {
+        const rows = await ctx.db.query("users").collect();
+        return rows.length;
+    }
+})
