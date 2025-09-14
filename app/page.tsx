@@ -1,11 +1,18 @@
+"use client"
+
 import FeatureCard from "@/components/FeatureCard";
 import Header from "@/components/Header";
 import { Button } from "@/components/ui/button";
+import { api } from "@/convex/_generated/api";
 import { SignedOut, SignInButton } from "@clerk/nextjs";
+import { useQuery } from "convex/react";
 import { Group, MessageCircle, Shield, Video, Zap } from "lucide-react";
 import Image from "next/image";
 
 export default function Home() {
+
+  const totalUsers = useQuery(api.users.totalUsers);
+
   return (
     <div>
       <Header />
@@ -30,7 +37,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-6">
             <SignedOut>
               <SignInButton mode="modal">
-                <Button size='lg' className="text-lg px-6 py-4 h-auto">Start Chatting for Free</Button>
+                <Button size='lg' className="text-lg px-6 py-4 h-auto hover:cursor-pointer">Start Chatting for Free</Button>
               </SignInButton>
             </SignedOut>
           </div>
@@ -42,12 +49,12 @@ export default function Home() {
             </p>
             <div className="flex justify-center items-center gap-8 text-muted-foreground">
               <div className="text-center">
-                <div className="text-2xl font-bold text-foreground">0</div>
+                <div className="text-2xl font-bold text-foreground">{totalUsers}</div>
                 <div className="text-sm">Active Users</div>
               </div>
               <div className="w-px h-8 bg-border"></div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-foreground">0</div>
+                <div className="text-2xl font-bold text-foreground">15</div>
                 <div className="text-sm">Messages Sent</div>
               </div>
               <div className="w-px h-8 bg-border"></div>
