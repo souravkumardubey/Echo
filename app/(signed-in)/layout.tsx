@@ -8,7 +8,7 @@ import streamClient from "@/lib/stream"
 import { Separator } from "@radix-ui/react-separator"
 import Link from "next/link"
 import { Chat } from "stream-chat-react"
-
+import "stream-chat-react/dist/css/v2/index.css"
 
 const Layout = ({ children }: {children: React.ReactNode}) => {
   return (

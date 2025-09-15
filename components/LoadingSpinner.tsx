@@ -47,7 +47,7 @@ export const LoadingSpinner = ({
     );
 };
 
-export const inlineSplinner = ({
+export const InlineSpinner = ({
     size = "sm",
     className,
 }: {
