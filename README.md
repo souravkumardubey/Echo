@@ -13,6 +13,21 @@
 ## ✨ Description
 **Echo** is a modern messaging platform built for seamless communication — whether you’re staying in touch with friends or collaborating with teams.  
 
+---
+
+## 🔎 Live Demo
+👉 [Echo – Conversations That Click](https://echo-sourav.vercel.app/)
+
+---
+
+## 🚶 How to Use
+1. **Sign up** with your email or Google account.  
+2. **Open the sidebar** – existing chats will be listed here. If none exist, start a new chat.  
+3. **Search for users** by name or email. (Note: the other person must have an account to appear in search.)  
+4. **Create group chats** for up to 100 people and assign a group name.  
+5. **Communicate seamlessly** with both instant messaging and HD video calls.  
+6. **Leave group chats** anytime when you no longer want to participate. 
+
 ### Key Features
 - 💬 **Instant Messaging** – Send and receive messages in real-time with lightning-fast performance.  
 - 🎥 **HD Video Calls** – Crystal-clear video conferencing for both personal and team communication.  
