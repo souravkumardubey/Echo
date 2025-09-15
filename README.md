@@ -28,6 +28,8 @@
 5. **Communicate seamlessly** with both instant messaging and HD video calls.  
 6. **Leave group chats** anytime when you no longer want to participate. 
 
+---
+
 ### Key Features
 - 💬 **Instant Messaging** – Send and receive messages in real-time with lightning-fast performance.  
 - 🎥 **HD Video Calls** – Crystal-clear video conferencing for both personal and team communication.  
