@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Echo – Conversations That Click
 
-## Getting Started
+> The modern messaging platform that combines lightning-fast chat and crystal-clear video calls in one seamless experience.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)  
+![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react)  
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)  
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38B2AC?style=flat-square&logo=tailwind-css)  
+![shadcn/ui](https://img.shields.io/badge/shadcn/ui-black?style=flat-square)  
 
+---
+
+## ✨ Description
+**Echo** is a modern messaging platform built for seamless communication — whether you’re staying in touch with friends or collaborating with teams.  
+
+### Key Features
+- 💬 **Instant Messaging** – Send and receive messages in real-time with lightning-fast performance.  
+- 🎥 **HD Video Calls** – Crystal-clear video conferencing for both personal and team communication.  
+- 🔒 **Secure & Private** – Conversations protected with end-to-end encryption.  
+- 👥 **Group Chats** – Collaborate easily by creating group chats.  
+- ⚡ **Fast Performance** – Optimized for a smooth and responsive user experience.  
+
+---
+
+## 🛠 Tech Stack
+- [Next.js 15](https://nextjs.org/) – React framework for production-grade apps  
+- [React 19](https://react.dev/) – Modern UI library  
+- [TypeScript](https://www.typescriptlang.org/) – Static typing for safer code  
+- [TailwindCSS 4](https://tailwindcss.com/) – Utility-first styling  
+- [shadcn/ui](https://ui.shadcn.com/) – Accessible, composable UI components  
+- [Convex](https://convex.dev/) – Backend for real-time apps  
+- [Clerk](https://clerk.dev/) – Authentication & user management  
+- [Stream](https://getstream.io/) – Video & chat infrastructure  
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/echo.git
+cd echo
+```
+### 1️⃣ Install dependencies
+```bash
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3️⃣ Run the development server
+```bash
+npm run dev
+This runs both the Next.js frontend and Convex backend.
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 4️⃣ Open in your browser
+```bash
+http://localhost:3000
+```
